@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class = "Navbar">Home</a></li>
+                <li><a href="#about" class = "Navbar">About</a></li>
+                <li><a href="#projects" class = "Navbar">Projects</a></li>
+                <li><a href="#contact" class = "Navbar">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p class = "Student">Hi, I'm POTLURI RUHEESH, a Student.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="https://res.cloudinary.com/ddsk3jo4r/image/upload/v1721494643/ruheesh_2_lbahus_c_crop_ar_3_4_emjvvb.jpg" alt="Profile Picture">
+            <p>Hello! My name is POTLURI RUHEESH, and I am passionate about technology and innovation. Currently, I am pursuing my B.Tech at IcfaiTech, ICFAI University, where I am immersing myself in the world of engineering and computer science. One of my exciting projects are  "Photography Blog, Basic Calculator & Student Teacher Appointment system", where I am utilizing HTML, CSS, JavaScript, and Firebase to create a seamless and user-friendly platform for education. This project reflects my commitment to improving educational experiences through technology. My journey in the tech field began with a curiosity for how things work and a desire to create solutions that make a difference. Now am doing my internship in Unified Mentor where I believe in fostering a collaborative and inclusive learning environment where every student can thrive.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="https://res.cloudinary.com/ddsk3jo4r/image/upload/v1721477662/Screenshot_2024-07-20_174346_z4yiyr.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>PROJECT NAME: Photography Blog</p>
+            </div>
+            <div class="project">
+                <img src="https://res.cloudinary.com/ddsk3jo4r/image/upload/v1721479118/Screenshot_2024-07-20_180607_da4wr1.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>PROJECT NAME: Basic Calculator</p>
+            </div>
+            <div class="project">
+                <img src="https://res.cloudinary.com/ddsk3jo4r/image/upload/v1721479121/Screenshot_2024-07-20_180644_dqyt6b.png" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>PROJECT NAME: Student Teacher Appointment system</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Personal Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
